@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bus Router</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_find">FIND</string>
+    <string name="src"><strong>Source </strong> </string>
+    <string name="des">Destination </string>
+    <string name="heading"><strong>Select source and destination</strong></string>
+    
+    
+    <string-array name="src">
+        <item>Todi</item>
+        
+	
+	
+	<item> Badi Chopar</item> 
+	
+	<item> V.K.I ROAD NO.17</item> 
+	
+	<item>Bhankrota</item> 
+	
+	<item>Chandpole</item> 
+	
+	<item>Pratap nagar</item> 
+	
+	
+	
+	<item>Choti Chopar</item> 
+	
+	<item>Sanganer</item> 
+	
+	<item>Pannadhay circle</item> 
+	
+	<item>Brahampuri</item> 
+	
+	<item>Mahatma gandhi hospital</item> 
+	
+	<item>Ajmeri gate</item> 
+	
+	
+	
+	<item>Kanota</item> 
+	
+	<item>Sindhi camp</item> 
+	
+	<item>Kunda</item> 
+	
+	<item>Collectorate</item> 
+	
+	<item>Malviya nagar</item> 
+	
+	<item>Khirani Phatak</item> 
+	
+	
+	
+	<item>Jagatpura</item> 
+	
+	<item>Agarwal Farm</item> 
+	
+	<item>Dadi ka phatak</item> 
+	
+	<item>Galta gate</item> 
+	
+	<item>khol ke hanuman ji</item> 
+	
+	<item>Suraj Pole</item> 
+	
+	
+	
+	<item>Durgapura</item> 
+	
+	<item>Tonk Phatak</item> 
+	
+	<item>Gandhi Nagar</item> 
+	
+	<item>Rambagh</item> 
+	
+	<item>Narayan singh circle</item> 
+	
+	<item>Maharani college</item> 
+	
+	
+	
+	<item>Sanganeri gate</item> 
+	
+	<item>Peetal factory</item> 
+	
+	<item>Chomu Pulia</item> 
+	
+	<item>Heerapura</item> 
+	
+	<item>Kings road</item> 
+	
+	<item>Purani chungi</item> 
+	
+	
+	
+	<item>New sanganer road</item> 
+	
+	<item>Sodala</item> 
+	
+	<item>ESI</item> 
+	
+	<item>GPO</item> 
+	
+	<item>Sanganer thana</item> 
+	
+	<item>City plex mall-Ashram Marg</item> 
+	
+	
+	
+	<item>Gopal pura</item> 
+	
+
+
+    </string-array>
+
+</resources>

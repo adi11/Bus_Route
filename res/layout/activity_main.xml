@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/heading"
+        android:textSize="@dimen/heading"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner_dest"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_src"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:paddingTop="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_dest"
+        
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="2dp"
+        android:textSize="@dimen/text_spinner"
+        android:text="@string/src" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_src"
+        android:textSize="@dimen/text_spinner"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/des" />
+
+    <Spinner
+        android:id="@+id/spinner_src"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_dest"
+        android:layout_toRightOf="@+id/textView3"
+        android:paddingTop="30dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_src"
+        android:layout_marginTop="21dp"
+        android:text="@string/button_find"
+        android:onClick="onSearch" />
+
+	 <ScrollView
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentRight="true"
+	     android:layout_below="@+id/button1"
+	     android:paddingTop="10dp" >
+	     
+	     <TextView
+	         android:id="@+id/textView4"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:text=""
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+	     
+        </ScrollView>
+    
+	
+    
+</RelativeLayout>
+
+
+  
