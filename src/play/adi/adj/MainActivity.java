@@ -263,7 +263,7 @@ public class MainActivity extends Activity implements OnClickListener {
 				no[i] = 0;
 			}
             name = "GALTA GATE";
-			no[9] =1;
+			no[9] = 1;
 			myDbHelper.createEntry(name,no);
 			
 			for (byte i= 0; i<10;i++){
@@ -469,6 +469,12 @@ public class MainActivity extends Activity implements OnClickListener {
 			spin_src = spinner.getSelectedItem().toString();
 			spin_des = spinner_des.getSelectedItem().toString();
 			Log.d("SOURCE",spin_des);
+			if(spin_src == spin_des){
+				tv_ans.setText("Your source and destination are same,Please select source and destination different");
+			}
+			else {
+				
+			
 			myDbHelper.open();
 			answer = myDbHelper.routeSearch(spin_src,spin_des);
 			myDbHelper.close();
@@ -481,7 +487,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			tv_ans.setText(CharSequence(answer));
 		//	Intent i = new Intent("play.adi.adj.ROUTEVIEW");
 			//startActivity(i);
-			
+			}
 			
 		}
 		
