@@ -4,12 +4,3 @@ This android app helps you find bus routes between your source and destination, 
 
 Select your Source and Destination and click FIND button.
 This will generate bus route.
-
-Team Name
-=========
-DroidDev
-
-Team Members
-===========
-Aditya Choudhary,
-Achin Varshney
